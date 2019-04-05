@@ -5,8 +5,7 @@ id: join-fileview-by-specimen-tool
 cwlVersion: v1.0
 
 baseCommand:
-  - python
-  - /usr/local/bin/join-fileview-by-specimen.py
+  - join_fileview_by_specimen.py
 
 requirements:
 - class: DockerRequirement
